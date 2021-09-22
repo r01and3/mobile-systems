@@ -1,0 +1,25 @@
+import QtQuick 2.0
+import Sailfish.Silica 1.0
+
+Page {
+    id: page
+    property int counter: 0
+    // The effective value will be restricted by ApplicationWindow.allowedOrientations
+    allowedOrientations: Orientation.All
+
+    Column {
+
+        id: column
+
+        Label {
+
+            text: counter.toString()
+            color: Theme.secondaryHighlightColor
+            font.pixelSize: 120
+        }
+        Button {
+            text: "Add"
+            onClicked: {counter += 1}
+        }
+    }
+}
