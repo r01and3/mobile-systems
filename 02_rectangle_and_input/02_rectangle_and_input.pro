@@ -24,6 +24,7 @@ DISTFILES += qml/02_rectangle_and_input.qml \
     qml/pages/05_mutation.qml \
     qml/pages/06_animation.qml \
     qml/pages/07_inputs.qml \
+    qml/pages/Main.qml \
     qml/pages/MainPage.qml \
     rpm/02_rectangle_and_input.changes.in \
     rpm/02_rectangle_and_input.changes.run.in \
