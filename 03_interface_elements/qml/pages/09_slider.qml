@@ -9,7 +9,7 @@ Page {
         width: page.width
         minimumValue: 0
         maximumValue: 100
-        value: _VALUE
+        value: 27
         stepSize: 1
         valueText: value
     }

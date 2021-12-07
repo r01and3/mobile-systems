@@ -28,6 +28,12 @@ Page {
                 color: "#0000ff"
                 anchors.left: rect2.horizontalCenter
                 anchors.bottom: rect2.verticalCenter
+                Text {
+                    id: str
+                    anchors.centerIn: parent
+                    color: "#ffffff"
+                    text: qsTr("Rectangle")
+                }
             }
         }
     }
